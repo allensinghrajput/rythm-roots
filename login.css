@@ -1,0 +1,150 @@
+*{
+    margin:0;
+}
+.main-page{
+    height:501px;
+    background-image:linear-gradient(to right,black,purple);
+    padding:7vw 4vw 7vw 4vw;
+    overflow:hidden;
+}
+.left{
+    height:95%;
+    width:60%;
+    background-color:transparent;
+    display:inline-block;
+    
+}
+.left img{
+    height:100%;
+    width:100%;
+    filter:brightness(20%);
+    position:relative;
+    z-index:0;
+}
+.left .intro{
+    height:100%;
+    width:100%;
+    margin-top:-35vw;
+    color:white;
+    position:relative;
+    z-index:1;
+    display:center;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:wrap;
+    background-color: transparent;
+}
+.intro img{
+    height:10vw;
+    width:10vw;
+    filter:brightness(300%);
+}
+.intro h6{
+    text-align:center;
+    font-size:2vw;
+}
+.intro h1{
+    text-align:center;
+    font-size:3vw;
+    color:#9c8c8a;
+}
+.intro p{
+    font-size:1.5vw;
+    margin-top:3vw;
+    text-align:center;
+}
+
+
+.right{
+    height:95%;
+    width:40%;
+    background-color:green;
+    display:inline-block;
+    float:right;
+}
+
+.login-container {
+    background-image:linear-gradient(90deg,purple,grey);
+    padding-top: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius:0px;
+    width:100%;
+    height:79%;
+    text-align: center;
+}
+
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    font-family:Bahnschrift;
+}
+
+
+.input-group {
+    margin-left:28%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+
+.input-with-icon {
+    position: relative;
+}
+
+.input-with-icon input {
+    width: 50%;
+    padding: 10px 10px 10px 35px; 
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-with-icon i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #777;
+}
+
+
+.login-btn {
+    width: 40%;
+    padding: 12px;
+    background-image:linear-gradient(45deg,black,purple,grey);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:30%;
+}
+
+.login-btn i {
+    margin-right: 8px;
+}
+
+.login-btn:hover {
+    background-color: #45a049;
+}
+
+
+.forgot-password {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
